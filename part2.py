@@ -266,4 +266,4 @@ with open('locations.csv') as csvfile:
 
 weather=pd.DataFrame(w.data)
 weather.head()
-weather.to_csv('weather.csv')
+write.to_csv('weather.csv')
